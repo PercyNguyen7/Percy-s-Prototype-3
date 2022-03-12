@@ -2177,7 +2177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The first fragment of memory.\n Find the other 6.\n\n\n\n\n"
+  m_text: "The first fragment of memory.\n Find all 7 of them.\n\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3817,11 +3817,11 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 4e5647a8c0082d84a9ec096ee8c4c35b, type: 3}
     volume: 0.352
     pitch: 1
-    loop: 0
+    loop: 1
     source: {fileID: 0}
   - name: Heartbeat
     clip: {fileID: 8300000, guid: 9dad04ba9d5d61f43bf54693cd6c6dba, type: 3}
-    volume: 0.019
+    volume: 0.028
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -5016,7 +5016,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Don't look back
+  m_text: don't look back
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6766,8 +6766,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26e54e5a728a9234ab24fcf1460ed8a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 2
-  SprintSpeed: 15
+  MoveSpeed: 3
+  SprintSpeed: 12
   RotationSmoothTime: 0.12
   SpeedChangeRate: 10
   JumpHeight: 1.2

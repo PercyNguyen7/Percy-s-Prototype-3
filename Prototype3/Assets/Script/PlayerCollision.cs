@@ -107,6 +107,7 @@ public class PlayerCollision : MonoBehaviour
         if (line1Played && line2Played && line3Played && line4Played && line5Played && line6Played && line7Played)
         {
             FindObjectOfType<AudioManager>().Play("AfterDark");
+            line1Played = false;
         }
 
         if (collision.gameObject.tag == "Space")
