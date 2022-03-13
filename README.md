@@ -1,5 +1,7 @@
 # Prototype 3: The Void Awaits, The End Calls
 
+## Questions
+
 Thank you for playtesting my prototype :)
  Sprinting by holding shift is strongly recommended.
  
@@ -13,7 +15,7 @@ Thank you for playtesting my prototype :)
 
  Feel free to ask me about the resources/tutorial I used to make this prototype!
  
- # Hypothesis Design
+ ## Hypothesis Design
  
   Please read only if you have playtested the prototype!
  
