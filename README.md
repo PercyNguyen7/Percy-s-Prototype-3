@@ -5,7 +5,7 @@
  
  Playtest Questions:
  1. Before collecting the first memory, what genre did you think the game fit into?
- 2. In one sentence, could you tell me (to the best of your ability) what this prototype is about
+ 2. In one sentence, could you tell me (to the best of your ability) what this prototype is about?
  3. There is a recurrence of the phrase "the view from half way down". What does this mean?
  4. Did the gameplay feel smooth and satisfying? What are your thoughts on the alternation between first and third person view?
  5. If you were the designer, name two components that you would change/add to the prototype.
@@ -17,7 +17,8 @@
  
   Please read only if you have playtested the prototype!
  
-  This prototype is merely a work of fiction inspired by the poem "The View from Half Way Down" from the Netflix series "Horsing Around". 
+  This prototype is merely a work of fiction inspired by the poem "The View from Half Way Down" from the Netflix series "Horsing Around". The recitation of the poem is in the following scene: https://www.youtube.com/watch?v=Pt21dU5Pu8g.
+  
   
   Credit:
   After Dark by Mr Kitty:
