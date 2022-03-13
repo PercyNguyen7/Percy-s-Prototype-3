@@ -33,6 +33,8 @@ Thank you for playtesting my prototype :)
   Heartbeat Flatline by Preston Gornik:
   https://www.youtube.com/watch?v=bfWD1voJS_w
   
+  Evil Whisper by Sound Effect Databse:
+  https://www.youtube.com/watch?v=P5ADqo2DjUI
  
  
  
