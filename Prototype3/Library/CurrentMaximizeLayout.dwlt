@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 939
-  m_MinSize: {x: 881, y: 492}
-  m_MaxSize: {x: 16006, y: 14042}
+  m_MinSize: {x: 881, y: 471}
+  m_MaxSize: {x: 16006, y: 14021}
   vertical: 0
-  controlID: 5808
+  controlID: 13745
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,10 +135,10 @@ MonoBehaviour:
     y: 0
     width: 1477
     height: 939
-  m_MinSize: {x: 605, y: 492}
-  m_MaxSize: {x: 12005, y: 14042}
+  m_MinSize: {x: 605, y: 471}
+  m_MaxSize: {x: 12005, y: 14021}
   vertical: 1
-  controlID: 5809
+  controlID: 13746
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 5778
+  controlID: 13747
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,7 +221,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3efbffff52430000a24300009c440000
+      m_ExpandedIDs: 3efbffff8a430000a2430000ac430000e24300009c440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -309,9 +309,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 61.446716, y: -69.64849, z: -24.832851}
+    m_Target: {x: -9.012264, y: 38.226414, z: -294.45972}
     speed: 2
-    m_Value: {x: 61.446716, y: -69.64849, z: -24.832851}
+    m_Value: {x: -9.012264, y: 38.226414, z: -294.45972}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -358,13 +358,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.26512975, y: 0.24141835, z: -0.069003195, w: 0.93100846}
+    m_Target: {x: 0.22587875, y: -0.03777365, z: 0.008457859, w: 0.9734506}
     speed: 2
-    m_Value: {x: 0.26511455, y: 0.2414045, z: -0.06899924, w: 0.93095505}
+    m_Value: {x: 0.22586456, y: -0.037771277, z: 0.008457328, w: 0.97338945}
   m_Size:
-    m_Target: 226.6258
+    m_Target: 12.273871
     speed: 2
-    m_Value: 226.6258
+    m_Value: 12.273871
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -537,8 +537,8 @@ MonoBehaviour:
     y: 668
     width: 1477
     height: 271
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -583,22 +583,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets/Sounds
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Script
+  - Assets/Sounds
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Dat\Concordia\CART 315\Prototype3\Percy-s-Prototype-3\Prototype3
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 78}
-    m_SelectedIDs: d8470000
-    m_LastClickedID: 18392
-    m_ExpandedIDs: 00000000c647000000ca9a3b
+    m_SelectedIDs: e4470000
+    m_LastClickedID: 18404
+    m_ExpandedIDs: 00000000ca47000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -626,7 +626,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c647000000ca9a3b
+    m_ExpandedIDs: 00000000ca47000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
