@@ -1,4 +1,4 @@
-# Prototype 3: The Void Awaits.
+# Prototype 3: The Void Awaits, The End Calls
 
  hank you for playtesting my prototype :)
  Sprinting by holding shift is strongly recommended.
