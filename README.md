@@ -1,6 +1,6 @@
 # Prototype 3: The Void Awaits, The End Calls
 
- hank you for playtesting my prototype :)
+Sharon best non existent prototype playtester
  Sprinting by holding shift is strongly recommended.
  
  Playtest Questions:
