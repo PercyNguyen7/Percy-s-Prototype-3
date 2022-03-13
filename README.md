@@ -7,10 +7,9 @@ Thank you for playtesting my prototype :)
  1. Before collecting the first memory, what genre did you think the game fit into?
  2.  In one sentence, could you tell me (to the best of your ability) what this prototype is about?
  3. There is a reccurence of the phrase "The View From Half Way Down", what do you think this refers to?
- 4. There is a recurrence of the phrase "the view from half way down". What does this mean?
- 5. Did the gameplay feel smooth and satisfying? What are your thoughts on the alternation between first and third person view?
- 6. If you were the designer, name two components that you would change/add to the prototype.
- 7. Was there any particular problems/bugs you ran into (ie game not reloading when jumped, collision not working properly) that you would like to tell me?
+ 4. Did the gameplay feel smooth and satisfying? What are your thoughts on the alternation between first and third person view?
+ 5. If you were the designer, name two components that you would change/add to the prototype.
+ 6. Was there any particular problems/bugs you ran into (ie game not reloading when jumped, collision not working properly) that you would like to tell me?
 
  Feel free to ask me about the resources/tutorial I used to make this prototype!
  
