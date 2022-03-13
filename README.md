@@ -1,4 +1,4 @@
-# Prototype 3: The Void Awaits, The End Calls
+# Prototype 3: The Void Calls, The End Awaits.
 
 ## Questions
 
