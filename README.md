@@ -15,12 +15,21 @@ Thank you for playtesting my prototype :)
 
  Feel free to ask me about the resources/tutorial I used to make this prototype!
  
- ## Hypothesis Design
+ ## Design Hypothesis
  
   Please read only if you have playtested the prototype!  
  
   This prototype is merely a work of fiction inspired by the poem "The View from Half Way Down" from the Netflix series "Horsing Around". The recitation of the poem is in the following scene: https://www.youtube.com/watch?v=Pt21dU5Pu8g.
   
+  Design hypothesis:
+ -  Players will be able to collect all 7 memories successfully.
+ -  Player know that the final action to finish the game is to jump down to its death.
+ -  Players understand the main story: A depressed clown reflecting on its life halfway through its suicidal jump.
+ -  Players will sprint most of the time as walking is quite slow and less satisfying.
+
+ Purposes of the game:
+ - Telling a dishearting narrative through sound design 
+ 
    Full poem: 
    The View From Halfway Down  
  The weak breeze whispers nothing  
@@ -75,5 +84,23 @@ Thank you for playtesting my prototype :)
   Evil Whisper by Sound Effect Databse:
   https://www.youtube.com/watch?v=P5ADqo2DjUI
  
- 
+ ## Reflection to Playtest Feedback 
+ Positive feedbacks:
+- Good visuals 
+- Good sound design
+- All playtesters understood the narrative of the game
+- The creepy and gloomy atmosphere was indeed achieved
+
+Criticisms to be addressed:
+- Collision with sphere do not work properly from times to times
+- Walk speed too slow comparing to run speed
+- Bridge at the end was too narrow
+- Major lag spike in the beginning of the game
+- Voice overlapping each others when one is not done playing
+
+Suggestions:
+- Adding particles 
+- Adding new texture for the terrain
+- Interactive NPCs
+
  
