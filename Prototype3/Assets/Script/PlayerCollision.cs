@@ -13,7 +13,11 @@ public class PlayerCollision : MonoBehaviour
     public bool line5Played;
     public bool line6Played;
     public bool line7Played;
-  
+
+
+    private AudioSource[] allAudioSources;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -29,31 +33,31 @@ public class PlayerCollision : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-       if (collision.gameObject.tag == "Heartbeat")
+        if (collision.gameObject.tag == "Heartbeat")
         {
             FindObjectOfType<AudioManager>().Play("Heartbeat");
             Destroy(collision.gameObject);
             //Debug.Log("After Dark!");
-            
+
         }
-       
+
         if (collision.gameObject.tag == "Abyss")
         {
-           
+
             Destroy(collision.gameObject);
             Debug.Log("Ending");
             FindObjectOfType<GameManager>().EndGame();
 
         }
-     
 
-            if (collision.gameObject.tag == "Line1")
+
+        if (collision.gameObject.tag == "Line1")
         {
             line1Played = true;
             FindObjectOfType<AudioManager>().Play("Line1");
             Destroy(collision.gameObject);
             Debug.Log("Line 1");
-           
+
         }
         if (collision.gameObject.tag == "Line2")
         {
@@ -113,7 +117,7 @@ public class PlayerCollision : MonoBehaviour
 
         if (collision.gameObject.tag == "Space")
         {
-        
+
             FindObjectOfType<AudioManager>().Play("Space");
             Destroy(collision.gameObject);
             Debug.Log("Sounds like home");
@@ -138,12 +142,22 @@ public class PlayerCollision : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("HomeSweetHome");
             Debug.Log("Home Sweet Home");
             Destroy(collision.gameObject);
-          
+
         }
         if (collision.gameObject.tag == "Gate23")
         {
             Destroy(collision.gameObject);
             Debug.Log("Freedom at last.");
-        }
-    }
+            allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+
+            //Code by dpanov76mail-ru from https://answers.unity.com/questions/847103/find-an-audioclip-by-its-variable-name-and-play-it.html
+            foreach (AudioSource audioS in allAudioSources)
+            {
+
+                audioS.Stop();
+                
+            }
+            FindObjectOfType<AudioManager>().Play("SynthwaveSoundtrack");
+             }
+         }
 }

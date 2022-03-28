@@ -8266,7 +8266,7 @@ GameObject:
   - component: {fileID: 531317997}
   - component: {fileID: 531317996}
   m_Layer: 0
-  m_Name: Point Light (2)
+  m_Name: Circus Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11121,9 +11121,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 0
   MinDistance: 1
-  MaxDistance: 180
+  MaxDistance: 190
   Pan2D: 0
-  rolloffMode: 1
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -11210,7 +11210,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.64
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -14025,8 +14025,8 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3112086632022406332, guid: 2e05c5d93a6e8ef44b7018bd7fb653cd, type: 3}
   m_PrefabInstance: {fileID: 1008326315}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &863912793
-MeshCollider:
+--- !u!65 &863912793
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -14035,10 +14035,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4998676118908782437, guid: 2e05c5d93a6e8ef44b7018bd7fb653cd, type: 3}
+  serializedVersion: 2
+  m_Size: {x: 67.42901, y: 39.970043, z: 44.26741}
+  m_Center: {x: -9.055206, y: 7.478818, z: -2.9117992}
 --- !u!1 &867963431
 GameObject:
   m_ObjectHideFlags: 0
@@ -23991,7 +23990,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -25968,6 +25967,12 @@ MonoBehaviour:
   - name: HomeSweetHome
     clip: {fileID: 8300000, guid: a677c288bd5d8a74b9d7537cd5fb718a, type: 3}
     volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SynthwaveSoundtrack
+    clip: {fileID: 8300000, guid: 7977b6ae7a69cc146bd46af211e88495, type: 3}
+    volume: 0.34
     pitch: 1
     loop: 0
     source: {fileID: 0}
@@ -38116,7 +38121,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.49247548
-  m_Center: {x: -0.000022500753, y: 0.024508001, z: -0.000025510788}
+  m_Center: {x: -0.000022500753, y: 0.11, z: -0.000025510788}
 --- !u!1 &3837663349322306096
 GameObject:
   m_ObjectHideFlags: 0
@@ -38188,7 +38193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MoveSpeed: 3.5
-  SprintSpeed: 45
+  SprintSpeed: 40
   RotationSmoothTime: 0.12
   SpeedChangeRate: 10
   JumpHeight: 1.2
