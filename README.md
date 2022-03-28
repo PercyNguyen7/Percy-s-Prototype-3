@@ -1,7 +1,7 @@
 # Iterative: Figment of Imagination
 
 Question for playtesters:
-1. Did you manage to escape the haunted park? If yes, how did you manage to find the way out and how long did it take approximately?
+1. Did you manage to escape the haunted park? If yes, how did you manage to find the way out and how long did it take to escape/give up?
 2. Were the hidden hints helpful/clear enough to guide you to escape the park?
 3. What could be the plot/story behind this iterative? 
 4. What are your thoughts regarding the aesthetic / ambience of the park? 
