@@ -45,8 +45,9 @@ public class PlayerCollision : MonoBehaviour
             FindObjectOfType<GameManager>().EndGame();
 
         }
+     
 
-        if (collision.gameObject.tag == "Line1")
+            if (collision.gameObject.tag == "Line1")
         {
             line1Played = true;
             FindObjectOfType<AudioManager>().Play("Line1");
@@ -130,6 +131,19 @@ public class PlayerCollision : MonoBehaviour
             FindObjectOfType<AudioManager>().Play("LastLine");
             Destroy(collision.gameObject);
             Debug.Log("Jump. Please.");
+        }
+
+        if (collision.gameObject.tag == "HomeSweetHome")
+        {
+            FindObjectOfType<AudioManager>().Play("HomeSweetHome");
+            Debug.Log("Home Sweet Home");
+            Destroy(collision.gameObject);
+          
+        }
+        if (collision.gameObject.tag == "Gate23")
+        {
+            Destroy(collision.gameObject);
+            Debug.Log("Freedom at last.");
         }
     }
 }
