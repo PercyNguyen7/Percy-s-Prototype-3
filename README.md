@@ -1,3 +1,15 @@
+# Iterative: Figment of Imagination
+
+Question for playtesters:
+1. Did you manage to escape the haunted park? If yes, how did you manage to find the way out and how long did it take approximately?
+2. Were the hidden hints helpful/clear enough to guide you to escape the park?
+3. What could be the plot/story behind this iterative? 
+4. What are your thoughts regarding the aesthetic / ambience of the park? 
+5. What do you think about the sound design? Would you include/remove any sound?
+6. Most favorite and least favorite part of the interative!
+7. Did you run into any issues (for ex low frame rate, bug/glitches, ...) while playing the game? Or just anything else you'd like to tell me?
+
+
 # Prototype 3: The Void Calls, The End Awaits.
 
 ## Questions
