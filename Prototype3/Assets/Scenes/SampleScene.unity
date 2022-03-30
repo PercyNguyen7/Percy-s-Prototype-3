@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: b6a5fe67df74171448b59a33bc974fd8, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 1966867887}
 --- !u!196 &4
 NavMeshSettings:
@@ -3521,7 +3521,7 @@ MeshCollider:
   m_GameObject: {fileID: 231429765}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -3904,27 +3904,27 @@ PrefabInstance:
       objectReference: {fileID: 5311662472658507371, guid: 2e05c5d93a6e8ef44b7018bd7fb653cd, type: 3}
     - target: {fileID: -1355168607899117183, guid: 2e05c5d93a6e8ef44b7018bd7fb653cd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 222.79356
+      value: 71.532326
       objectReference: {fileID: 0}
     - target: {fileID: -1355168607899117183, guid: 2e05c5d93a6e8ef44b7018bd7fb653cd, type: 3}
       propertyPath: m_LocalScale.y
-      value: 222.79356
+      value: 71.532326
       objectReference: {fileID: 0}
     - target: {fileID: -1355168607899117183, guid: 2e05c5d93a6e8ef44b7018bd7fb653cd, type: 3}
       propertyPath: m_LocalScale.z
-      value: 222.79356
+      value: 71.532326
       objectReference: {fileID: 0}
     - target: {fileID: -1355168607899117183, guid: 2e05c5d93a6e8ef44b7018bd7fb653cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11472
+      value: -19554
       objectReference: {fileID: 0}
     - target: {fileID: -1355168607899117183, guid: 2e05c5d93a6e8ef44b7018bd7fb653cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 22330
+      value: 24294
       objectReference: {fileID: 0}
     - target: {fileID: -1355168607899117183, guid: 2e05c5d93a6e8ef44b7018bd7fb653cd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36944
+      value: -26641
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2e05c5d93a6e8ef44b7018bd7fb653cd, type: 3}
       propertyPath: m_Name
@@ -4728,7 +4728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 528.2
+      value: 497
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4770,6 +4770,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: RollerCoaster (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2800250516343163423, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_Name
+      value: Coaster 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800250516343163423, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6944656104360116776, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -4787,12 +4795,44 @@ PrefabInstance:
       value: -12.87
       objectReference: {fileID: 0}
     - target: {fileID: 8946660040297601765, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946660040297601765, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.8489027
+      value: 2.71
       objectReference: {fileID: 0}
     - target: {fileID: 8946660040297601765, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -24.306583
+      value: -26.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946660040297601765, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7515226
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946660040297601765, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.659617
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946660040297601765, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0109072765
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946660040297601765, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00057478243
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946660040297601765, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -82.49
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946660040297601765, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 7.541
+      objectReference: {fileID: 0}
+    - target: {fileID: 8946660040297601765, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -6.702
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
@@ -6078,7 +6118,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &391731011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7081,7 +7121,7 @@ Transform:
   m_GameObject: {fileID: 439683736}
   m_LocalRotation: {x: 0.92890555, y: 0.021365868, z: 0.112089224, w: 0.3522982}
   m_LocalPosition: {x: -115724, y: 24319, z: -15460}
-  m_LocalScale: {x: 222.79356, y: 222.79356, z: 222.79356}
+  m_LocalScale: {x: 129.22026, y: 129.22026, z: 129.22026}
   m_Children: []
   m_Father: {fileID: 455441729}
   m_RootOrder: 3
@@ -7682,7 +7722,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.93333334, g: 0.7016938, b: 0.19999996, a: 1}
   m_Intensity: 10
-  m_Range: 500
+  m_Range: 400
   m_SpotAngle: 17
   m_InnerSpotAngle: 17
   m_CookieSize: 10
@@ -7720,7 +7760,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -8453,7 +8493,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 536691971}
   m_LocalRotation: {x: -0, y: 0.9999442, z: -0, w: 0.010566133}
-  m_LocalPosition: {x: -143.1, y: 43.1, z: -730.4}
+  m_LocalPosition: {x: -120.9, y: 30, z: -743.5}
   m_LocalScale: {x: 35.088062, y: 16.393932, z: 3.0554}
   m_Children:
   - {fileID: 2039491386}
@@ -11097,7 +11137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9204e8de976b3274baf5fe512f211a33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeedZ: 1
+  rotationSpeedZ: 0.8
   rotationSpeedY: 0
   rotationSpeedX: 0
 --- !u!82 &657916077
@@ -12624,14 +12664,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: RollerCoaster (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6944656104360116776, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a3b84d1711ebcac41b27f248108262ea, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a6177bd8bead5240a26c274615c60ea, type: 2}
     - target: {fileID: 6944656104360116776, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: a3b84d1711ebcac41b27f248108262ea, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a6177bd8bead5240a26c274615c60ea, type: 2}
     - target: {fileID: 8670761335428686811, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.5
@@ -16348,7 +16392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1012460807
 Transform:
   m_ObjectHideFlags: 0
@@ -18941,14 +18985,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: RollerCoaster (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2800250516343163423, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6944656104360116776, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: a3b84d1711ebcac41b27f248108262ea, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a6177bd8bead5240a26c274615c60ea, type: 2}
     - target: {fileID: 6944656104360116776, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: a3b84d1711ebcac41b27f248108262ea, type: 2}
+      objectReference: {fileID: 2100000, guid: 9a6177bd8bead5240a26c274615c60ea, type: 2}
     - target: {fileID: 8670761335428686811, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_LocalPosition.y
       value: 3.5
@@ -19745,8 +19797,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218412602}
   m_LocalRotation: {x: -0, y: 0.95117426, z: -0, w: 0.30865455}
-  m_LocalPosition: {x: -16.600021, y: 0, z: -122.8501}
-  m_LocalScale: {x: 58.495502, y: 5.365556, z: 1}
+  m_LocalPosition: {x: -16.24, y: 0, z: -122.85}
+  m_LocalScale: {x: 60.16879, y: 5.365556, z: 1}
   m_Children: []
   m_Father: {fileID: 374350527}
   m_RootOrder: 1
@@ -22886,7 +22938,7 @@ MeshCollider:
   m_GameObject: {fileID: 1388104984}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -23124,7 +23176,7 @@ Transform:
   m_GameObject: {fileID: 1407055335}
   m_LocalRotation: {x: 0.92890555, y: 0.021365868, z: 0.112089224, w: 0.3522982}
   m_LocalPosition: {x: -76280, y: 53647, z: 19730}
-  m_LocalScale: {x: 222.79356, y: 222.79356, z: 222.79356}
+  m_LocalScale: {x: 71.13576, y: 71.13576, z: 71.13576}
   m_Children: []
   m_Father: {fileID: 455441729}
   m_RootOrder: 2
@@ -23620,7 +23672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1452473194
 Transform:
   m_ObjectHideFlags: 0
@@ -23643,14 +23695,14 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452473193}
   serializedVersion: 2
-  m_Mass: 0.0000001
+  m_Mass: 50
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 3
 --- !u!65 &1452473196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26383,7 +26435,7 @@ Transform:
   m_GameObject: {fileID: 1626863051}
   m_LocalRotation: {x: -0.01744554, y: -0.1690065, z: 0.984787, w: 0.0364285}
   m_LocalPosition: {x: -177327, y: 28111, z: 2449}
-  m_LocalScale: {x: 222.79356, y: 222.79356, z: 222.79356}
+  m_LocalScale: {x: 113.083336, y: 113.083336, z: 113.083336}
   m_Children: []
   m_Father: {fileID: 455441729}
   m_RootOrder: 4
@@ -27263,7 +27315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1696190431
 Transform:
   m_ObjectHideFlags: 0
@@ -33491,7 +33543,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2000061979}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -76.8, y: -33.842, z: -327.3}
+  m_LocalPosition: {x: -76.8, y: -33.696, z: -325.271}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1980385106}
@@ -33626,7 +33678,7 @@ MeshCollider:
   m_GameObject: {fileID: 2004599721}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -34332,7 +34384,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2039491385}
   m_LocalRotation: {x: -0, y: -0.9999442, z: -0, w: 0.010566133}
-  m_LocalPosition: {x: 0, y: 0, z: 0.76843715}
+  m_LocalPosition: {x: 0, y: 0, z: 0.76}
   m_LocalScale: {x: 0.08711354, y: 0.18637383, z: 0.9953402}
   m_Children: []
   m_Father: {fileID: 536691976}
@@ -34340,7 +34392,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.4462433, y: -0.01999855}
+  m_AnchoredPosition: {x: -0.402, y: -0.01999855}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2039491387
@@ -34363,7 +34415,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Escape\n      your\n\n            i m a g i n a  t i o n"
+  m_text: "Escape\n      your\n\n           I M A G I N A T I O N"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -34390,8 +34442,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 8
-  m_fontSizeBase: 8
+  m_fontSize: 9
+  m_fontSizeBase: 9
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -36266,6 +36318,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: RollerCoaster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2800250516343163423, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_Name
+      value: Coaster 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944656104360116776, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6944656104360116776, guid: 74aef3a20d4ce0245b275d415af0a4ba, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -37297,7 +37357,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &2129934573
 Light:
   m_ObjectHideFlags: 0
