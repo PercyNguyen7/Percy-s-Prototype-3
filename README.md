@@ -9,7 +9,7 @@ Question for playtesters:
 3. What could be the plot/story behind this iterative? 
 4. What are your thoughts regarding the aesthetic / ambience of the park? 
 5. What do you think about the sound design? Would you include/remove any sound?
-6. Most favorite and least favorite part of the iterative?
+6. Most favorite and least favorite part of the iteration?
 7. Did you run into any issues (for ex low frame rate, bug/glitches, ...) while playing the game? Or just anything else you'd like to tell me?
 
 If you still can not figure out the escape path, you are welcome to contact me for the answer!
