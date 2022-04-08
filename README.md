@@ -32,7 +32,7 @@ https://www.cgtrader.com/free-3d-models/architectural/other/carnival-scene
 # Prototype 3 Iteration: Figment of Imagination
 
 ## Design Hypothesis: 
-Objective:
+### Objective:
  Players play as a clown born into a chaotic carnival and identical gates. The player may only win be consulting at least one of the following hints
  - Stretched out text outside of the biggest gate
  - The mirror in the circus tent reflecting gate 36
@@ -41,8 +41,8 @@ Objective:
 
  Upon understanding these hints, players should figure out that their objective is to get up top of the tent and look down towards the direction of the biggest gate where the text of the gate number may be readable and revealed. In this iteration, the great escape gate is 23.
  
- Ambience:
- The environment represents the player's absurdity of the player's mind.
+ ### Ambience:
+ The environment represents the pure absurdity and randomness of the player's mind.
  
  ### Credit: 
  Soundtrack: 
