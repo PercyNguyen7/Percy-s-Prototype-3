@@ -14,6 +14,8 @@ public class PlayerCollision : MonoBehaviour
     public bool line6Played;
     public bool line7Played;
 
+    public bool worthlessPlayed;
+
 
     private AudioSource[] allAudioSources;
 
@@ -22,7 +24,8 @@ public class PlayerCollision : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        line1Played = false;  
+        line1Played = false;
+        worthlessPlayed = false;
     }
 
     // Update is called once per frame
@@ -140,15 +143,17 @@ public class PlayerCollision : MonoBehaviour
         if (collision.gameObject.tag == "HomeSweetHome")
         {
             FindObjectOfType<AudioManager>().Play("HomeSweetHome");
-            Debug.Log("Home Sweet Home");
+            Debug.Log("Worthless...");
             Destroy(collision.gameObject);
+            worthlessPlayed = true;
 
         }
-        if (collision.gameObject.tag == "Gate23")
+        if (collision.gameObject.tag == "Gate23" && worthlessPlayed == true)
         {
             Destroy(collision.gameObject);
             Debug.Log("Freedom at last.");
             allAudioSources = FindObjectsOfType(typeof(AudioSource)) as AudioSource[];
+            
 
             //Code by dpanov76mail-ru from https://answers.unity.com/questions/847103/find-an-audioclip-by-its-variable-name-and-play-it.html
             foreach (AudioSource audioS in allAudioSources)
