@@ -1,23 +1,30 @@
 # Final Project: Figment of Imagination
 ## Design Journal:
+Played as Godric, the Royal Jester, players must find a way out of their selfmade virtual prison disguised as a whimsical carnival.
 
-Changes made from playtesters' feedbacks:
+
+### New Features:
+#### Story:
+- New Ticket Booth that welcomes the player through audio
+- 6 Bumper Cars scattered around the park, constantly shouting "worthless"
+- roller coaster floating in the sky
+
+#### Changes made from playtesters' feedbacks:
+- Rope now easier to climb/walked on with invisible walls right below them
 - Players now must come inside the tent (to read the hint) before being able to run through the escape gate.
 - Added the word clown right below the flag of the tent as reflected by the third mirror. I also changed the word "lifelines" to reach to clearly indicate the player's objective to get up top.
-- Added the word "flee" at the ticket booth near the entrace to make the player's objective of escaping more clearly.
+- Added the word "flee" at the new ticket booth near the entrace to make the player's objective of escaping more clearly.
 - Tuned down the tent's volume and adjusted the volumes of each object 
 
-Changes I tried but failed to implement to satisfy playtesters' feedback.
-- Making the player unable to see through wall from first POV by
--  increasing the player's collider however this makes it hard for the player to climb up/downhill
--  increase each object's collider but this is wayy too complicated/unnecessary as there are too many objects for such a minor problem
--  pulling the camera back however this runs into the problem of the camera seeing the clown's model instead.
+#### Changes I tried but failed to implement to satisfy playtesters' feedback:
+-  Making the player unable to see through wall from first POV by
+      Increasing the player's collider however this makes it hard for the player to climb up/downhill
+      Increase each object's collider but this is wayy too complicated/unnecessary as there are too many objects for such a minor problem
+      Pulling the camera back however this runs into the problem of the camera seeing the clown's model instead.
 
-New Features:
-- Roller Coaster in the sky
-- 6 Bumper Cars scattered around the park, constantly declaring "worthless"
-- A
-- 
+#### New location for puzzle's hints:
+- New gates for each mirror so live playtester can not rely on their memory alone
+
 # Prototype 3 Iteration: Figment of Imagination
 
 ## Design Hypothesis: 
