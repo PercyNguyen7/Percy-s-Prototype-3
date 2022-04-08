@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637825813827475038
-    m_Hash: 4290927527
+      ticks: 637849924719122809
+    m_Hash: 1267456522
   m_LockFileStatus:
     m_FilePath: C:/Dat/Concordia/CART 315/Prototype3/Percy-s-Prototype-3/Prototype3/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637825813827644090
-    m_Hash: 2063569701
+      ticks: 637849924719641397
+    m_Hash: 2042065538
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -235,12 +235,16 @@ m_PackageAssets:
         - 1.14.9
         - 1.14.12
         - 1.14.13
+        - 1.14.15
+        - 1.14.16
         - 1.15.1
         - 1.15.4
         - 1.15.7
         - 1.15.9
         - 1.15.12
         - 1.15.13
+        - 1.15.15
+        - 1.15.16
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -257,6 +261,8 @@ m_PackageAssets:
         - 1.15.9
         - 1.15.12
         - 1.15.13
+        - 1.15.15
+        - 1.15.16
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -267,7 +273,7 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.15.13
+        verified: 1.15.16
       dependencies:
       - name: com.unity.nuget.newtonsoft-json
         version: 2.0.0
@@ -364,6 +370,7 @@ m_PackageAssets:
         - 3.0.9
         - 3.0.10
         - 3.0.12
+        - 3.0.13
         compatible:
         - 1.0.2
         - 1.0.6
@@ -393,6 +400,7 @@ m_PackageAssets:
         - 3.0.9
         - 3.0.10
         - 3.0.12
+        - 3.0.13
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -466,6 +474,7 @@ m_PackageAssets:
         - 2.0.11
         - 2.0.12
         - 2.0.14
+        - 2.0.15
         compatible:
         - 1.0.2
         - 1.0.3
@@ -484,7 +493,8 @@ m_PackageAssets:
         - 2.0.11
         - 2.0.12
         - 2.0.14
-        verified: 2.0.14
+        - 2.0.15
+        verified: 2.0.15
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -591,12 +601,12 @@ m_PackageAssets:
         url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
         revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
         path: 
-    - packageId: com.unity.inputsystem@1.3.0
+    - packageId: com.unity.inputsystem@1.2.0
       testable: 0
       isDirectDependency: 1
-      version: 1.3.0
+      version: 1.2.0
       source: 1
-      resolvedPath: C:\Dat\Concordia\CART 315\Prototype3\Percy-s-Prototype-3\Prototype3\Library\PackageCache\com.unity.inputsystem@1.3.0
+      resolvedPath: C:\Dat\Concordia\CART 315\Prototype3\Percy-s-Prototype-3\Prototype3\Library\PackageCache\com.unity.inputsystem@1.2.0
       assetPath: Packages/com.unity.inputsystem
       name: com.unity.inputsystem
       displayName: Input System
@@ -713,13 +723,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637769972190000000
+      datePublishedTicks: 637714457070000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.com/Unity-Technologies/InputSystem.git
-        revision: 76d3fd182183dff9e9793431de614fd1e69e363c
+        revision: 0343e557f75946cf6fad4be48dd10276d535f490
         path: 
     - packageId: com.unity.postprocessing@3.2.1
       testable: 0
