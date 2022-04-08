@@ -2,7 +2,6 @@
 ## Design Journal:
 Played as Godric, the Royal Jester, players must find a way out of their selfmade virtual prison disguised as a whimsical carnival.
 
-
 ### New Features:
 #### Story:
 - New Ticket Booth that welcomes the player through audio
@@ -25,11 +24,15 @@ Played as Godric, the Royal Jester, players must find a way out of their selfmad
 #### New location for puzzle's hints:
 - New gates for each mirror so live playtester can not rely on their memory alone
 
+### Credit:
+Additional credit to the last one:
+Roller Coaster model by flamincactus:
+https://www.cgtrader.com/free-3d-models/architectural/other/carnival-scene
+
 # Prototype 3 Iteration: Figment of Imagination
 
 ## Design Hypothesis: 
 Objective:
-
  Players play as a clown born into a chaotic carnival and identical gates. The player may only win be consulting at least one of the following hints
  - Stretched out text outside of the biggest gate
  - The mirror in the circus tent reflecting gate 36
@@ -41,7 +44,7 @@ Objective:
  Ambience:
  The environment represents the player's absurdity of the player's mind.
  
- Credit: 
+ ### Credit: 
  Soundtrack: 
  https://www.youtube.com/watch?v=NZ4Of3lID84
  
