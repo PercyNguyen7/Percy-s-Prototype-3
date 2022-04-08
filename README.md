@@ -4,7 +4,7 @@ Played as Godric, the Royal Jester, players must find a way out of their selfmad
 
 ### New Features:
 #### Story:
-- New Ticket Booth that welcomes the player through audio
+- New Ticket Booth that welcomes the player through audio. All audio voices are self recorded!
 - 6 Bumper Cars scattered around the park, constantly shouting "worthless"
 - roller coaster floating in the sky
 
