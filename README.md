@@ -1,7 +1,42 @@
+# Final Project: Figment of Imagination
+## Design Journal: 
+
+
 # Prototype 3 Iteration: Figment of Imagination
 
-Welcome to my world. 
+## Design Hypothesis: 
+Objective:
 
+ Players play as a clown born into a chaotic carnival and identical gates. The player may only win be consulting at least one of the following hints
+ - Stretched out text outside of the biggest gate
+ - The mirror in the circus tent
+ - The mirror at gate 36 pointing at gate 13
+ - The mirror at gate 13 pointing at the flags above the circus tent. Below the mirror lays the word "lifelines" under it
+
+ Upon understanding these hints, players should figure out that their objective is to get up top of the tent and look down towards the direction of the biggest gate where the text of the gate number may be readable and revealed. In this iteration, the great escape gate is 23.
+ 
+ Ambience:
+ The environment represents the player's absurdity of the player's mind.
+ 
+ Credit: 
+ Soundtrack: 
+ https://www.youtube.com/watch?v=NZ4Of3lID84
+ 
+ Models:
+ Carousel by LynPoddley:
+ https://www.cgtrader.com/free-3d-models/exterior/other/steam-galloper-carousel-1947
+ 
+ Bumper Car by Merrico:
+ https://www.cgtrader.com/free-3d-models/car/antique-car/bumper-car-1c0d3bea-6d05-43a5-927f-e35b9da6fb73
+ 
+ Gate by Shahid Abdullah:
+ https://www.cgtrader.com/items/643278/download-page
+ 
+ Ferris Wheel by bluecoreproductions:
+ https://free3d.com/3d-model/nimbasa-city-9452.html
+ 
+ Circus tent by printable_models:
+ https://free3d.com/3d-model/circus-tent-v2--770828.html
 
 Question for playtesters:
 1. Did you manage to escape the haunted park? If yes, how did you find the right method and how long did it take for you to escape or give up?
@@ -13,6 +48,26 @@ Question for playtesters:
 7. Did you run into any issues (for ex low frame rate, bug/glitches, ...) while playing the game? Or just anything else you'd like to tell me?
 
 If you still can not figure out the escape path, you are welcome to contact me for the answer!
+
+## Reflection to Playtester's Feedback:
+
+I have reviewed and compiled playtesters' feedback main ideas into the following 3 categories:
+Criticism:
+- Players can just bump through every single gate until the random one opens
+- Sound near tent is too loud
+- Player could look through the wall
+- Home Sweet Home line didn't play sometimes (which was later removed)
+- Climbing on the ropes is quite hard/ too precise
+- Notable difference between walking/running
+- High mouse sensitivity
+
+Compliments:
+- Trippy, chaotic atmosphere fits the mood
+- Great overall choice of sounds
+- Good artstyle
+
+Suggestions:
+- Story wise: A circus performer who wrestles with the back story that drove them to become a member of a travelling circus.
 
 
 # Prototype 3: The Void Calls, The End Awaits.
