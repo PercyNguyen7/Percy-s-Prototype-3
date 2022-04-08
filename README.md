@@ -1,7 +1,22 @@
 # Final Project: Figment of Imagination
-## Design Journal: 
+## Design Journal:
 
+Changes made from playtesters' feedbacks:
+- Players now must come inside the tent before being able to run through the escape gate.
+- Added the word clown right below the flag of the tent as reflected by the third mirror. I also changed the word "lifelines" to reach to clearly indicate the player's objective to get up top.
+- 
 
+Changes I tried but failed to implement to satisfy playtesters' feedback.
+- Making the player unable to see through wall from first POV by
+-  increasing the player's collider however this makes it hard for the player to climb up/downhill
+-  increase each object's collider but this is wayy too complicated/unnecessary as there are too many objects for such a minor problem
+-  pulling the camera back however this runs into the problem of the camera seeing the clown's model instead.
+
+New Features:
+- Roller Coaster in the sky
+- 6 Bumper Cars scattered around the park, constantly declaring "worthless"
+- A
+- 
 # Prototype 3 Iteration: Figment of Imagination
 
 ## Design Hypothesis: 
@@ -9,8 +24,8 @@ Objective:
 
  Players play as a clown born into a chaotic carnival and identical gates. The player may only win be consulting at least one of the following hints
  - Stretched out text outside of the biggest gate
- - The mirror in the circus tent
- - The mirror at gate 36 pointing at gate 13
+ - The mirror in the circus tent reflecting gate 36
+ - The mirror at gate 36 reflecting gate 13
  - The mirror at gate 13 pointing at the flags above the circus tent. Below the mirror lays the word "lifelines" under it
 
  Upon understanding these hints, players should figure out that their objective is to get up top of the tent and look down towards the direction of the biggest gate where the text of the gate number may be readable and revealed. In this iteration, the great escape gate is 23.
@@ -53,6 +68,7 @@ If you still can not figure out the escape path, you are welcome to contact me f
 
 I have reviewed and compiled playtesters' feedback main ideas into the following 3 categories:
 Criticism:
+- Last mirror hint towards the flag of the tent is quite unclear
 - Players can just bump through every single gate until the random one opens
 - Sound near tent is too loud
 - Player could look through the wall
