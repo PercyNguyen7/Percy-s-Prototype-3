@@ -2,9 +2,10 @@
 ## Design Journal:
 
 Changes made from playtesters' feedbacks:
-- Players now must come inside the tent before being able to run through the escape gate.
+- Players now must come inside the tent (to read the hint) before being able to run through the escape gate.
 - Added the word clown right below the flag of the tent as reflected by the third mirror. I also changed the word "lifelines" to reach to clearly indicate the player's objective to get up top.
-- 
+- Added the word "flee" at the ticket booth near the entrace to make the player's objective of escaping more clearly.
+- Tuned down the tent's volume and adjusted the volumes of each object 
 
 Changes I tried but failed to implement to satisfy playtesters' feedback.
 - Making the player unable to see through wall from first POV by
